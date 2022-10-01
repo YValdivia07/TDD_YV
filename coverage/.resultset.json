@@ -191,7 +191,7 @@
         "lines": [
           1,
           1,
-          4,
+          1,
           null,
           null
         ]
@@ -200,7 +200,7 @@
         "lines": [
           1,
           1,
-          1,
+          5,
           null,
           null
         ]
@@ -238,127 +238,11 @@
           null,
           null,
           1,
-          11,
-          null,
-          null,
-          1,
-          11,
-          null,
-          null
-        ]
-      },
-      "/home/mauro/Documentos/tdd/app/models/check.rb": {
-        "lines": [
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/home/mauro/Documentos/tdd/app/models/application_record.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/home/mauro/Documentos/tdd/spec/models/meal_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
           4,
           null,
           null,
-          null,
-          null,
-          null,
-          2,
-          null,
-          null,
-          null,
-          null,
-          null,
-          2,
-          2,
-          null,
-          null
-        ]
-      },
-      "/home/mauro/Documentos/tdd/app/models/meal.rb": {
-        "lines": [
           1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/home/mauro/Documentos/tdd/spec/models/table_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          5,
-          null,
-          null,
-          null,
-          null,
-          null,
-          2,
-          2,
-          null,
-          null,
-          2,
-          2,
+          4,
           null,
           null
         ]
@@ -396,14 +280,30 @@
           null
         ]
       },
-      "/home/mauro/Documentos/tdd/spec/models/user_spec.rb": {
+      "/home/mauro/Documentos/tdd/app/models/application_record.rb": {
         "lines": [
           1,
           1,
+          null
+        ]
+      },
+      "/home/mauro/Documentos/tdd/app/models/check.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           null,
           1,
           1,
-          2,
           null,
           null,
           null,
@@ -411,15 +311,14 @@
           null,
           null,
           null,
-          2,
           null,
           null,
-          null,
+          1,
           null,
           null
         ]
       },
-      "/home/mauro/Documentos/tdd/app/models/user.rb": {
+      "/home/mauro/Documentos/tdd/app/models/meal.rb": {
         "lines": [
           1,
           null,
@@ -434,12 +333,14 @@
           null,
           null,
           null,
+          1,
+          1,
+          null,
           null,
           null,
           null,
           null,
           1,
-          null,
           null,
           null,
           null,
@@ -450,6 +351,6 @@
         ]
       }
     },
-    "timestamp": 1663979514
+    "timestamp": 1663980674
   }
 }

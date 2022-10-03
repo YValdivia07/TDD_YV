@@ -19,6 +19,7 @@ class Table < ApplicationRecord
   # == Validations ================================================================================
 
   validates :number, presence: true
+  validates :number, uniqueness: true
   
   # == Raise errors  ==============================================================================
 

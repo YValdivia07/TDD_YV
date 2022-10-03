@@ -6,31 +6,20 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-puts "Creating tables"
-Array((1..10)).each do |table|
-  Table.create(
-    {
-      number: table
-    }
-  )
+puts 'create users'
+
+20.times do User.create(
+  {
+    name: Faker::Name.name,
+    likes: rand(4)
+  }
+)
 end
 
-puts "Creating Meals"
-dishes = %w[porotos arroz tallarines pollo chapsui pizza lasagna curanto cancato salmón]
-dishes.each do |meal|
-  Meal.create(
-    {
-      name: meal
-    }
-  )
-end
+puts 'create tables'
 
-puts "Creating Checks"
-10.times do
-  Check.create(
-    {
-      tables_id: rand(9) + 1,
-      meals_id: rand(9) + 1
-    }
-  )
-end
+Table.create(number: 1)
+
+puts 'create Meals'
+
+Meal.create([{name: 'Arroz'}, { name: 'Carne'}])

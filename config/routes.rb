@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
+ 
+  api_version(module: 'Api::V1', path: { value: 'api/v1'}, defaults: { format: :json }) do
+    resources :users, only: %i[index]
+    resources :tables, only: %i[create show]
+    resources :meals, only: %i[index]
+    end
 end
